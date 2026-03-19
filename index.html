@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Law Timeline — ITSP410</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@300;400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="nav__logo-mark">⚖</span>
+      <span>PrivacyLex</span>
+    </div>
+    <ul class="nav__links">
+      <li><a href="#timeline" class="nav__link">Timeline</a></li>
+      <li><a href="#global" class="nav__link">Global</a></li>
+      <li><a href="#philippine" class="nav__link">Philippine</a></li>
+      <li><a href="#whats-next" class="nav__link">What's Next</a></li>
+      <li><a href="#quiz" class="nav__link nav__link--cta">Take the Quiz</a></li>
+    </ul>
+    <button class="nav__menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero__noise"></div>
+    <div class="hero__grid-lines"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">
+        <span class="hero__eyebrow-dot"></span>
+        ITSP410 — Introduction to Computing · Task Sheet 4
+      </p>
+      <h1 class="hero__title">
+        <span class="hero__title-line">The Architecture</span>
+        <span class="hero__title-line hero__title-line--accent">of Privacy</span>
+      </h1>
+      <p class="hero__subtitle">
+        From Warren &amp; Brandeis to the age of AI — a visual journey through the laws that
+        shaped our right to be left alone.
+      </p>
+      <div class="hero__meta">
+        <div class="hero__meta-item">
+          <span class="hero__meta-num">12+</span>
+          <span class="hero__meta-label">Milestones</span>
+        </div>
+        <div class="hero__meta-divider"></div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-num">130+</span>
+          <span class="hero__meta-label">Years of Law</span>
+        </div>
+        <div class="hero__meta-divider"></div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-num">2</span>
+          <span class="hero__meta-label">Jurisdictions</span>
+        </div>
+      </div>
+      <a href="#timeline" class="hero__cta">
+        Explore the Timeline
+        <span class="hero__cta-arrow">↓</span>
+      </a>
+    </div>
+    <div class="hero__scroll-indicator">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </header>
+
+  <!-- FILTER BAR -->
+  <section class="filter-bar" id="timeline">
+    <div class="filter-bar__inner">
+      <span class="filter-bar__label">Filter by:</span>
+      <div class="filter-bar__btns">
+        <button class="filter-btn active" data-filter="all">All Events</button>
+        <button class="filter-btn" data-filter="global">🌐 Global</button>
+        <button class="filter-btn" data-filter="philippine">🇵🇭 Philippine</button>
+        <button class="filter-btn" data-filter="digital">💻 Digital Age</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <main class="timeline-section">
+    <div class="timeline-spine"></div>
+
+    <!-- MILESTONE 1 -->
+    <article class="milestone" data-tags="global" id="global">
+      <div class="milestone__year-bubble">1890</div>
+      <div class="milestone__card milestone__card--left">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <h2 class="milestone__title">The Right to Privacy</h2>
+          <p class="milestone__subtitle">Warren &amp; Brandeis, Harvard Law Review</p>
+          <ul class="milestone__points">
+            <li>Samuel Warren and Louis Brandeis published the foundational essay coining the phrase "right to be let alone."</li>
+            <li>Argued that the law must protect individuals from undue media exposure as technology advanced.</li>
+            <li>Set the philosophical bedrock for all future privacy legislation worldwide.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m1-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m1-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m1-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 2 -->
+    <article class="milestone milestone--right" data-tags="global">
+      <div class="milestone__year-bubble">1948</div>
+      <div class="milestone__card">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <h2 class="milestone__title">Universal Declaration of Human Rights</h2>
+          <p class="milestone__subtitle">United Nations — Article 12</p>
+          <ul class="milestone__points">
+            <li>Article 12 explicitly states: no one shall be subjected to arbitrary interference with privacy, family, home or correspondence.</li>
+            <li>Elevated privacy from a legal concept to a fundamental human right on the world stage.</li>
+            <li>Became the moral anchor for subsequent international privacy treaties and national constitutions.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m2-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m2-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m2-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 3 -->
+    <article class="milestone" data-tags="global">
+      <div class="milestone__year-bubble">1974</div>
+      <div class="milestone__card milestone__card--left">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <h2 class="milestone__title">U.S. Privacy Act</h2>
+          <p class="milestone__subtitle">United States Federal Law</p>
+          <ul class="milestone__points">
+            <li>Governed how U.S. federal agencies collect, maintain, use, and disseminate personally identifiable information.</li>
+            <li>Granted citizens the right to access and request corrections to their federal records.</li>
+            <li>One of the first laws to translate privacy philosophy into enforceable government obligations.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m3-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m3-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m3-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 4 -->
+    <article class="milestone milestone--right" data-tags="global digital">
+      <div class="milestone__year-bubble">1995</div>
+      <div class="milestone__card">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <div class="milestone__tag tag--digital" style="margin-left:6px">💻 Digital Age</div>
+          <h2 class="milestone__title">EU Data Protection Directive</h2>
+          <p class="milestone__subtitle">European Union — Directive 95/46/EC</p>
+          <ul class="milestone__points">
+            <li>Established the EU's first comprehensive framework for protecting personal data across member states.</li>
+            <li>Introduced key principles: purpose limitation, data minimization, and individual rights to access and erasure.</li>
+            <li>Became a global template influencing data protection laws on every continent.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m4-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m4-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m4-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 5 — PHILIPPINE -->
+    <article class="milestone" data-tags="philippine" id="philippine">
+      <div class="milestone__year-bubble milestone__year-bubble--ph">2012</div>
+      <div class="milestone__card milestone__card--left">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--ph">🇵🇭 Philippine</div>
+          <h2 class="milestone__title">Republic Act 10173</h2>
+          <p class="milestone__subtitle">Data Privacy Act of 2012 — Philippines</p>
+          <ul class="milestone__points">
+            <li>The Philippines' landmark legislation protecting the privacy of individuals' personal information in information and communications systems.</li>
+            <li>Established the National Privacy Commission (NPC) as the country's data protection authority.</li>
+            <li>Imposed obligations on Personal Information Controllers and Processors aligned with international standards.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m5-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m5-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m5-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 6 -->
+    <article class="milestone milestone--right" data-tags="philippine digital">
+      <div class="milestone__year-bubble milestone__year-bubble--ph">2012</div>
+      <div class="milestone__card">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--ph">🇵🇭 Philippine</div>
+          <h2 class="milestone__title">Republic Act 10175</h2>
+          <p class="milestone__subtitle">Cybercrime Prevention Act of 2012 — Philippines</p>
+          <ul class="milestone__points">
+            <li>Criminalized online offenses including illegal access, data interference, cybersquatting, and online libel.</li>
+            <li>Complemented the Data Privacy Act by addressing criminal liability for data breaches and unauthorized access.</li>
+            <li>Controversial for its cyberlibel provisions, sparking national debate on free speech vs. online accountability.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m6-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m6-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m6-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 7 -->
+    <article class="milestone" data-tags="global digital">
+      <div class="milestone__year-bubble">2016</div>
+      <div class="milestone__card milestone__card--left">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <div class="milestone__tag tag--digital" style="margin-left:6px">💻 Digital Age</div>
+          <h2 class="milestone__title">General Data Protection Regulation</h2>
+          <p class="milestone__subtitle">European Union — GDPR (Effective 2018)</p>
+          <ul class="milestone__points">
+            <li>The world's most comprehensive and enforceable data protection law, replacing the 1995 Directive.</li>
+            <li>Introduced the "right to be forgotten," explicit consent requirements, and fines up to 4% of global annual turnover.</li>
+            <li>Its extraterritorial scope means any entity handling EU citizens' data must comply, reshaping global tech industry practices.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m7-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m7-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m7-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 8 -->
+    <article class="milestone milestone--right" data-tags="philippine digital">
+      <div class="milestone__year-bubble milestone__year-bubble--ph">2016</div>
+      <div class="milestone__card">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--ph">🇵🇭 Philippine</div>
+          <h2 class="milestone__title">IRR of RA 10173 Implemented</h2>
+          <p class="milestone__subtitle">Implementing Rules &amp; Regulations — NPC Philippines</p>
+          <ul class="milestone__points">
+            <li>The National Privacy Commission officially implemented the Implementing Rules and Regulations (IRR) of the Data Privacy Act.</li>
+            <li>Required all government agencies and private companies handling personal data to register with the NPC and appoint a Data Protection Officer (DPO).</li>
+            <li>Mandated breach notification within 72 hours — aligning the Philippines with international best practices.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m8-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m8-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m8-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 9 -->
+    <article class="milestone" data-tags="global digital">
+      <div class="milestone__year-bubble">2018</div>
+      <div class="milestone__card milestone__card--left">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <div class="milestone__tag tag--digital" style="margin-left:6px">💻 Digital Age</div>
+          <h2 class="milestone__title">Cambridge Analytica Scandal</h2>
+          <p class="milestone__subtitle">Facebook / Meta — Global Data Crisis</p>
+          <ul class="milestone__points">
+            <li>Up to 87 million Facebook profiles were harvested without consent and used to build psychographic voter targeting models.</li>
+            <li>Triggered global legislative momentum — from the U.S. Senate hearings to accelerated GDPR enforcement actions.</li>
+            <li>Became the defining moment proving that personal data is a political weapon, galvanizing public demand for stronger privacy laws.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m9-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m9-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m9-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 10 -->
+    <article class="milestone milestone--right" data-tags="global digital">
+      <div class="milestone__year-bubble">2020</div>
+      <div class="milestone__card">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <div class="milestone__tag tag--digital" style="margin-left:6px">💻 Digital Age</div>
+          <h2 class="milestone__title">California Consumer Privacy Act</h2>
+          <p class="milestone__subtitle">CCPA / CPRA — United States</p>
+          <ul class="milestone__points">
+            <li>Granted California residents the right to know, delete, and opt out of the sale of their personal information.</li>
+            <li>Inspired by GDPR but tailored for the American market — considered the strongest U.S. state-level privacy law.</li>
+            <li>Set a de facto national standard given California's role as the home of major tech companies.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m10-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m10-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m10-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 11 -->
+    <article class="milestone" data-tags="philippine digital">
+      <div class="milestone__year-bubble milestone__year-bubble--ph">2022</div>
+      <div class="milestone__card milestone__card--left">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--ph">🇵🇭 Philippine</div>
+          <h2 class="milestone__title">NPC Circular 2022-01</h2>
+          <p class="milestone__subtitle">National Privacy Commission — Philippines</p>
+          <ul class="milestone__points">
+            <li>Issued mandatory guidelines on data breach management and notification, increasing accountability for personal information controllers.</li>
+            <li>Strengthened enforcement with updated procedures on how companies must respond, contain, and report data breaches.</li>
+            <li>Aligned the Philippines more closely with global standards including GDPR's 72-hour breach notification rule.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m11-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m11-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m11-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- MILESTONE 12 -->
+    <article class="milestone milestone--right" data-tags="global digital">
+      <div class="milestone__year-bubble">2024</div>
+      <div class="milestone__card">
+        <div class="milestone__card-inner">
+          <div class="milestone__tag tag--global">🌐 Global</div>
+          <div class="milestone__tag tag--digital" style="margin-left:6px">💻 Digital Age</div>
+          <h2 class="milestone__title">EU AI Act</h2>
+          <p class="milestone__subtitle">European Union — World's First AI Law</p>
+          <ul class="milestone__points">
+            <li>The world's first comprehensive legal framework regulating artificial intelligence, with a risk-based classification system.</li>
+            <li>Prohibits biometric mass surveillance, AI manipulation, and social scoring — directly intersecting with personal privacy rights.</li>
+            <li>Sets the stage for a new era where privacy law must encompass not just data storage but algorithmic decision-making.</li>
+          </ul>
+          <div class="milestone__actions">
+            <button class="pill-btn" data-modal="m12-why">💡 Why It Matters</button>
+            <button class="pill-btn pill-btn--gold" data-modal="m12-fact">⭐ Fun Fact</button>
+            <button class="pill-btn pill-btn--outline" data-modal="m12-real">📰 Real-World Example</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- WHAT'S NEXT SECTION -->
+  <section class="whats-next" id="whats-next">
+    <div class="whats-next__header">
+      <p class="whats-next__eyebrow">Looking Ahead</p>
+      <h2 class="whats-next__title">What's Next in Privacy?</h2>
+      <p class="whats-next__desc">Our predictions for the future frontier of data protection law, shaped by emerging technologies and shifting societal values.</p>
+    </div>
+    <div class="whats-next__grid">
+
+      <div class="prediction-card">
+        <div class="prediction-card__icon">🤖</div>
+        <h3 class="prediction-card__title">AI Accountability Laws</h3>
+        <p class="prediction-card__body">Following the EU AI Act, countries worldwide — including the Philippines — will enact laws requiring algorithmic transparency, explainability, and human oversight for automated decisions affecting individuals.</p>
+        <div class="prediction-card__timeline">Est. 2025–2027</div>
+      </div>
+
+      <div class="prediction-card prediction-card--featured">
+        <div class="prediction-card__icon">🇵🇭</div>
+        <h3 class="prediction-card__title">Philippine Digital Economy Privacy Act</h3>
+        <p class="prediction-card__body">An anticipated amendment or successor to RA 10173 that addresses e-commerce platforms, digital financial services, and social media data — modernizing the 2012 framework for the age of super-apps.</p>
+        <div class="prediction-card__timeline">Est. 2025–2026</div>
+      </div>
+
+      <div class="prediction-card">
+        <div class="prediction-card__icon">🧬</div>
+        <h3 class="prediction-card__title">Biometric &amp; Genomic Privacy</h3>
+        <p class="prediction-card__body">As DNA testing, facial recognition, and health wearables proliferate, specialized laws protecting biometric and genetic data will emerge — the most sensitive personal data imaginable.</p>
+        <div class="prediction-card__timeline">Est. 2026–2030</div>
+      </div>
+
+      <div class="prediction-card">
+        <div class="prediction-card__icon">🌐</div>
+        <h3 class="prediction-card__title">Global Privacy Treaty</h3>
+        <p class="prediction-card__body">Momentum is building at the UN for a binding international convention on data privacy — a "Paris Agreement" for personal data that would hold all nations to minimum protection standards.</p>
+        <div class="prediction-card__timeline">Est. 2028–2035</div>
+      </div>
+
+      <div class="prediction-card">
+        <div class="prediction-card__icon">🔗</div>
+        <h3 class="prediction-card__title">Decentralized Identity Rights</h3>
+        <p class="prediction-card__body">With blockchain-based identity systems emerging, new legal frameworks will define ownership and portability of digital identities — giving citizens control over their credentials without relying on tech giants.</p>
+        <div class="prediction-card__timeline">Est. 2027–2032</div>
+      </div>
+
+      <div class="prediction-card">
+        <div class="prediction-card__icon">🧠</div>
+        <h3 class="prediction-card__title">Neurorights Legislation</h3>
+        <p class="prediction-card__body">Chile became the first country to constitutionally protect mental data. As brain-computer interfaces advance, neurorights — protecting the privacy of your thoughts — will become a mainstream legal frontier.</p>
+        <div class="prediction-card__timeline">Est. 2030+</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- QUIZ SECTION -->
+  <section class="quiz-section" id="quiz">
+    <div class="quiz-section__header">
+      <p class="quiz-section__eyebrow">🧠 Test Your Knowledge</p>
+      <h2 class="quiz-section__title">Privacy Law Quiz</h2>
+      <p class="quiz-section__desc">How well do you know the milestones? Answer 5 questions to find out.</p>
+    </div>
+
+    <div class="quiz-container" id="quizContainer">
+      <div class="quiz-progress">
+        <div class="quiz-progress__bar" id="quizProgressBar"></div>
+      </div>
+      <div class="quiz-q-counter" id="quizCounter">Question 1 of 5</div>
+      <div class="quiz-question" id="quizQuestion"></div>
+      <div class="quiz-options" id="quizOptions"></div>
+      <div class="quiz-feedback" id="quizFeedback"></div>
+      <button class="quiz-next-btn" id="quizNextBtn" style="display:none">Next Question →</button>
+    </div>
+
+    <div class="quiz-result" id="quizResult" style="display:none">
+      <div class="quiz-result__score" id="quizScore"></div>
+      <p class="quiz-result__msg" id="quizMsg"></p>
+      <button class="quiz-restart-btn" id="quizRestart">Retake Quiz</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo-mark">⚖</span>
+        <span class="footer__brand-name">PrivacyLex Timeline</span>
+      </div>
+      <div class="footer__info">
+        <p>ITSP410: Introduction to Computing — Task Sheet 4</p>
+        <p>Technological University of the Philippines · Taguig City</p>
+      </div>
+      <div class="footer__copy">
+        <p>Interactive Infographic Website: Privacy Law Timeline</p>
+        <p class="footer__copy-small">Educational use only. Content curated for academic purposes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODALS CONTAINER -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal__close" id="modalClose">✕</button>
+      <div class="modal__icon" id="modalIcon"></div>
+      <h3 class="modal__title" id="modalTitle"></h3>
+      <p class="modal__body" id="modalBody"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
